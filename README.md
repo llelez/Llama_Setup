@@ -48,6 +48,7 @@ Then, once you enter that interface, only download 7B and tokenizer_checklist.ch
 After the download finishes, lacate the 7B folder and the tokenizer files and copy them to the llama.cpp/models folder
 Then, vim into the params.json file and change the '-1' to '32000'
 ![Screenshot 2024-04-22 at 9 12 14 PM](https://github.com/llelez/Llama_Setup/assets/167836348/8f4fba90-d2fa-4b8e-a222-8a22bed8fb25)
+
 Then,
 > cd llama.cpp
 > python3 convert.py models/7B
@@ -61,6 +62,7 @@ Then,
 Now you can talk to Bob:
 
 ![Screenshot 2024-04-22 at 7 20 22 PM](https://github.com/llelez/Llama_Setup/assets/167836348/70e78f90-1ff2-458e-adbd-0f789391bd26)
+
 Finally, you move the llama-7b file to your USB stick. 
 
 ## Intalling the LLM on Raspberry Pi
